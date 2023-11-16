@@ -1,0 +1,88 @@
+*{
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+nav{
+    display: flex;
+    background-color: rgb(165, 18, 18);
+    
+}
+nav ul{
+    display: inline-block;
+    align-items: center;
+
+}
+nav li{
+    font-size: 22px;
+    list-style: none;
+    float: left;
+    padding: 5px 5px;
+    margin: 7px 15px;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-color: rgb(37, 1, 37);
+    border-radius: 30px;
+    border-width: 3px;
+    padding: 2px 10px 2px 10px;
+}
+nav div{
+    display: inline-block;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 36%;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+div.abc{
+    border: solid;
+    width: 35%;
+    height: 80%;
+    float: left;
+    margin-top: 3%;
+    font-size: 20px;
+    margin-left: 6%;
+    text-align: center;
+    border-color: gray;
+    height: 450px;
+    border-radius: 10px;
+}
+div.abcd{
+    border: solid;
+    margin-top: 3%;
+    width: 35%;
+    height: 80%;
+    float: right;
+    font-size: 20px;
+    margin-right: 6%;
+    text-align: center;
+    border-color: gray;
+    height: 450px;
+    border-radius: 10px;
+}
+div.abc h1{
+    color: rgb(162, 13, 13);
+    margin-top: 5px;
+}
+div.abcd h1{
+    color: rgb(165, 13, 13);
+    margin-top: 5px;
+}
+div.NAAV{
+    border: solid ;
+    border-color: rgb(165, 18, 18);
+}
